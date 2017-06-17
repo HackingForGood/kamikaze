@@ -112,7 +112,20 @@
 <!-- If you do not want to serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
 <script src="/__/firebase/3.8.0/firebase.js"></script>
 <script src="/__/firebase/init.js"></script>
-
 <script src="scripts/main.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDjQcLP03S5mDyIb5n1c2UhiOJbqZMT2IU",
+    authDomain: "kamikaze-e17fd.firebaseapp.com",
+    databaseURL: "https://kamikaze-e17fd.firebaseio.com",
+    projectId: "kamikaze-e17fd",
+    storageBucket: "kamikaze-e17fd.appspot.com",
+    messagingSenderId: "134992800844"
+  };
+  firebase.initializeApp(config);
+</script>
 </body>
 </html>

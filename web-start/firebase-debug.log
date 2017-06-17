@@ -1,36 +1,56 @@
-[debug] [2017-06-17T16:20:14.743Z] ----------------------------------------------------------------------
-[debug] [2017-06-17T16:20:14.747Z] Command:      /usr/local/Cellar/node/7.2.0/bin/node /usr/local/bin/firebase serve
-[debug] [2017-06-17T16:20:14.748Z] CLI Version:  3.9.1
-[debug] [2017-06-17T16:20:14.748Z] Platform:     darwin
-[debug] [2017-06-17T16:20:14.748Z] Node Version: v7.2.0
-[debug] [2017-06-17T16:20:14.749Z] Time:         Sat Jun 17 2017 12:20:14 GMT-0400 (EDT)
-[debug] [2017-06-17T16:20:14.749Z] ----------------------------------------------------------------------
+[debug] [2017-06-17T17:21:34.882Z] ----------------------------------------------------------------------
+[debug] [2017-06-17T17:21:34.885Z] Command:      /usr/local/bin/node /usr/local/bin/firebase serve --project kamikaze
+[debug] [2017-06-17T17:21:34.885Z] CLI Version:  3.9.1
+[debug] [2017-06-17T17:21:34.886Z] Platform:     darwin
+[debug] [2017-06-17T17:21:34.886Z] Node Version: v6.10.3
+[debug] [2017-06-17T17:21:34.886Z] Time:         Sat Jun 17 2017 13:21:34 GMT-0400 (EDT)
+[debug] [2017-06-17T17:21:34.886Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-06-17T16:20:14.771Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-06-17T16:20:14.771Z] > authorizing via signed-in user
-[debug] [2017-06-17T16:20:14.775Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2017-06-17T16:20:14.776Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/DiM6ZgKCpRI-qIFLaTQD9_TGpruc6-ZRruRalq_9_3Y',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Sat Jun 17 2017 12:20:14 GMT-0400 (EDT)
-[debug] [2017-06-17T16:20:14.962Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:20:14.966Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kamikaze-e17fd  
- Sat Jun 17 2017 12:20:14 GMT-0400 (EDT)
-[debug] [2017-06-17T16:20:15.475Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:20:15.477Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kamikaze-e17fd/tokens  
- Sat Jun 17 2017 12:20:15 GMT-0400 (EDT)
-[debug] [2017-06-17T16:20:15.773Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T17:21:34.900Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-17T17:21:34.900Z] > authorizing via signed-in user
+[debug] [2017-06-17T17:21:34.902Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kamikaze-e17fd  
+ Sat Jun 17 2017 13:21:34 GMT-0400 (EDT)
+[debug] [2017-06-17T17:21:35.268Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T17:21:35.270Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kamikaze-e17fd/tokens  
+ Sat Jun 17 2017 13:21:35 GMT-0400 (EDT)
+[debug] [2017-06-17T17:21:35.596Z] <<< HTTP RESPONSE 200
 [info] 
-[info] === Serving from '/Users/lisahernandez/challenges/kamikaze/web-start'...
+[info] === Serving from '/Users/ruhitakolambekar/kamikaze/web-start'...
 [info] 
-[debug] [2017-06-17T16:20:15.779Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/kamikaze-e17fd  
- Sat Jun 17 2017 12:20:15 GMT-0400 (EDT)
-[debug] [2017-06-17T16:20:16.069Z] <<< HTTP RESPONSE 200
-[debug] [2017-06-17T16:20:16.070Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/134992800844/clients/_:getWebAppConfig  
- Sat Jun 17 2017 12:20:16 GMT-0400 (EDT)
-[debug] [2017-06-17T16:20:16.518Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T17:21:35.601Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/kamikaze-e17fd  
+ Sat Jun 17 2017 13:21:35 GMT-0400 (EDT)
+[debug] [2017-06-17T17:21:35.828Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T17:21:35.828Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/134992800844/clients/_:getWebAppConfig  
+ Sat Jun 17 2017 13:21:35 GMT-0400 (EDT)
+[debug] [2017-06-17T17:21:36.236Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-17T17:24:08.901Z] ----------------------------------------------------------------------
+[debug] [2017-06-17T17:24:08.903Z] Command:      /usr/local/bin/node /usr/local/bin/firebase serve --project kamikaze
+[debug] [2017-06-17T17:24:08.904Z] CLI Version:  3.9.1
+[debug] [2017-06-17T17:24:08.904Z] Platform:     darwin
+[debug] [2017-06-17T17:24:08.904Z] Node Version: v6.10.3
+[debug] [2017-06-17T17:24:08.904Z] Time:         Sat Jun 17 2017 13:24:08 GMT-0400 (EDT)
+[debug] [2017-06-17T17:24:08.905Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-17T17:24:08.918Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-17T17:24:08.918Z] > authorizing via signed-in user
+[debug] [2017-06-17T17:24:08.920Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kamikaze-e17fd  
+ Sat Jun 17 2017 13:24:08 GMT-0400 (EDT)
+[debug] [2017-06-17T17:24:09.993Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T17:24:09.994Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kamikaze-e17fd/tokens  
+ Sat Jun 17 2017 13:24:09 GMT-0400 (EDT)
+[debug] [2017-06-17T17:24:10.338Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/ruhitakolambekar/kamikaze/web-start'...
+[info] 
+[debug] [2017-06-17T17:24:10.341Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/kamikaze-e17fd  
+ Sat Jun 17 2017 13:24:10 GMT-0400 (EDT)
+[debug] [2017-06-17T17:24:10.636Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T17:24:10.636Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/134992800844/clients/_:getWebAppConfig  
+ Sat Jun 17 2017 13:24:10 GMT-0400 (EDT)
+[debug] [2017-06-17T17:24:11.071Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: ./
 [info] ✔  hosting: Local server: http://localhost:5000
 
