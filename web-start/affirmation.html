@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Custom Affirmation</title>
+    <link rel="stylesheet" href="/home.css">
+  </head>
+
+  <body>
+    <h1>Custom Affirmation Form</h1>
+
+    <ul>
+      <% @affirmations.each do |affirmation| %>
+        <li><a href="/affirmations/<%= affirmation %>"><%= affirmation %></a></li>
+      <% end %>
+    </ul>
+
+    <form action="/affirmations" method="post">
+      <label for="affirmation_name">Affirmation:</label>
+      <input type="text" id="aff_name" name="aff_name">
+
+      <input type="submit">
+    </form>
+  </body>
+</html>
